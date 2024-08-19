@@ -2,6 +2,9 @@ name: Continuous Integration
 on:
     push:
         branches: "feature/**"
+    pull_request:
+        types: [opened, reopened]
+        branches: "feature/**"
 jobs:
     tests:
         runs-on: ubuntu-latest
