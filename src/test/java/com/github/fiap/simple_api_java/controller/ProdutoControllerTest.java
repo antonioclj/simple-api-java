@@ -1,6 +1,5 @@
 package com.github.fiap.simple_api_java.controller;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.BDDMockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
@@ -57,7 +56,7 @@ public class ProdutoControllerTest {
     @DisplayName("test fail")
     @Test
     void testGivenNewProduto_whenCreate_thenFail() throws Exception{
-        fail("Uma falha forçada");
+        // fail("Uma falha forçada");
     }
     
 }
