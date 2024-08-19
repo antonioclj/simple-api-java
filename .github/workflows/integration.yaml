@@ -17,4 +17,4 @@ jobs:
               java-version: '21' 
 
         -   name: Run unit tests 
-              run: mvn test
+            run: mvn test
